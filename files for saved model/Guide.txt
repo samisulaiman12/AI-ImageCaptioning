@@ -1,0 +1,14 @@
+To use the saved model (best_model.keras) to generate captions, follow these steps:
+
+1)Make sure to add the Flickr8k dataset to the input (it is a dataset exist on kaggle) at the link https://www.kaggle.com/datasets/adityajn105/flickr8k .
+
+1)Upload the notebook file (saved-model-generation.ipynb) to a notebook environment on Kaggle.
+
+2)Create a new dataset on Kaggle, and upload the following three files into it:
+
+   best_model.keras
+   features.pkl
+   tokenizer.pkl
+ Name the dataset "imagecaptioning."
+
+These steps are specific to using Kaggle, but it is possible to use a different environment if needed.
